@@ -1,0 +1,70 @@
+<html>
+<head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+<body background = "http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/sn-pandasH.jpg?itok=kFBLaJDz">
+  <!--Navbar -->
+  <nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container-fluid">
+      <!-- navbar header -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Pandvi</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <!-- end navbar header -->
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar-1">
+        <ul class="nav navbar-nav">
+          <li><a href="/personal">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/all">Doctor</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
+
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav><!-- end navbar -->
+
+  <br/>
+  
+  <div class = "container row-centered" style = "padding-top: 100px;">
+  <form class="form-horizontal" role="form" style="width: 50%;">
+    <div class="form-group">
+        <label style = "color: white;" for="name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label style = "color: white;" for="email" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label style = "color: white;" for="message" class="col-sm-2 control-label">Message</label>
+        <div class="col-sm-10">
+            <textarea class="form-control" rows="4" name="message"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+            <! Will be used to display an alert to the user>
+        </div>
+    </div>
+  </div>
+</form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+GetRecipeWithIngredient a recipe with ingredient {ingred}
+GetRecipeWithIngredient make recipe ingredient {ingred}
+GetRecipeWithIngredient a recipe that has {ingred}
+GetRecipeWithIngredient some recipes ingredients
+GetRecipeWithIngredient some recipes with {ingred}
+GetRecipeWithIngredient make food recipe with {ingred}
+GetRecipeWithIngredient {ingred}
+
+GetRecipeWithCalories make recipe under {cal} calories
+GetRecipeWithCalories make recipe {cal} calorie limit
+GetRecipeWithCalories recipe with {cal} calories
+GetRecipeWithCalories recipe with calorie count {cal}
+GetRecipeWithCalories meal under {cal} calories
+GetRecipeWithCalories {cal} calorie meal
+GetRecipeWithCalories {cal} calorie recipe
+
+GetRecipeWithIngredientCalories make recipe with {ingred} under {cal} calories
+GetRecipeWithIngredientCalories {cal} calorie meal with {ingred}
+GetRecipeWithIngredientCalories make recipe with {ingred} under {cal} calories
+GetRecipeWithIngredientCalories recipes under {cal} calories with {ingred}
+GetRecipeWithIngredientCalories meal with {ingred} under {cal}
+GetRecipeWithIngredientCalories {cal} calorie recipe with {ingred}
+
+GetNutritionDetails how many calories in {ingred}
+GetNutritionDetails calorie count in {ingred}
+GetNutritionDetails calories in {ingred}
+
+UpdateUserDataCalories today I ate {cal} calories
+UpdateUserDataCalories add {cal} calories 
+UpdateUserDataCalories update meal {cal} calories
+UpdateUserDataCalories track {cal} calories
+
+UpdateUserDataFood today I ate {ingred}
+UpdateUserDataFood I ate {ingred}
+UpdateUserDataFood update food {ingred}
+UpdateUserDataFood track food {ingred}
+UpdateUserDataFood add meal {ingred}
+UpdateUserDataFood add food {ingred}
+
+PopulateToCart populate to my cart {ingred}
+PopulateToCart populate {ingred} to my cart
+PopulateToCart add {ingred} to my cart
+PopulateToCart add {ingred}
+PopulateToCart order {ingred}

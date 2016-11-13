@@ -1,0 +1,36 @@
+{
+    "intents": [
+      {
+        "intent":"GetRecipeWithIngredient",
+        "_comment": "(ingred)"
+      },
+      {
+        "intent":"GetRecipeWithCalories",
+        "_comment": "(cal)"
+      },
+      {
+        "intent":"GetRecipeWithIngredientCalories",
+        "_comment": "(ingred) and (cal)"
+      },
+      {
+        "intent":"QuestionQuery",
+
+      },
+      {
+        "intent":"GetNutritionDetails",
+        "_comment": "(ingred)"
+      },
+      {
+        "intent":"UpdateUserDataCalories",
+        "_comment": "(cal)"
+      },
+      {
+        "intent":"UpdateUserDataFood",
+        "_comment": "(ingred)"
+      },
+      {
+        "intent":"PopulateToCart",
+        "_comment": "(ingred)"
+      }
+  ]
+}
